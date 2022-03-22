@@ -7,8 +7,17 @@
   "license": "MIT",
   "web": "https://github.com/nimious/io-serialport",
   "refs": [
-    "fatal: unable to access 'https://github.com/nimious/io-serialport.git/': Could not resolve host: github.com",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "desc": "Obsolete - please use serialport instead!",
+      "license": "MIT",
+      "name": "io-serialport",
+      "ref": "refs/heads/master",
+      "url": "https://github.com/nimious/io-serialport.git",
+      "version": "master"
+    }
+  ]
 }
