@@ -9,8 +9,8 @@
   
   inputs.src-io-serialport-master.flake = false;
   inputs.src-io-serialport-master.owner = "nimious";
-  inputs.src-io-serialport-master.ref   = "refs/heads/master";
-  inputs.src-io-serialport-master.repo  = "io-serialport";
+  inputs.src-io-serialport-master.ref   = "master";
+  inputs.src-io-serialport-master.repo  = "io-serialport.git";
   inputs.src-io-serialport-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
