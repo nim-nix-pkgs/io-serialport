@@ -11,7 +11,6 @@
   inputs.src-serialport-master.ref   = "refs/heads/master";
   inputs.src-serialport-master.owner = "nimious";
   inputs.src-serialport-master.repo  = "io-serialport";
-  inputs.src-serialport-master.dir   = "";
   inputs.src-serialport-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
